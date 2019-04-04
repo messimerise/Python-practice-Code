@@ -1,0 +1,4 @@
+#compute the factorial of a given number
+n=int(input("enter the no"))
+fact=(lambda a:a*fact(a-1))(n)
+print("Factoial of the nos is "+str(fact))
